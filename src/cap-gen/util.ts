@@ -13,7 +13,7 @@ interface Hex2Dec {
 const { decToHex, hexToDec } = require("hex2dec") as Hex2Dec;
 /* eslint-enable */
 
-const trace = initTrace("capnpc:util");
+const trace = initTrace("cap-gen:util");
 trace("load");
 
 export function c2s(s: string): string {

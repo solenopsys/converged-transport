@@ -8,7 +8,7 @@ import { ListElementSize } from "../list-element-size";
 import { _ListCtor, List } from "./list";
 import { getContent } from "./pointer";
 
-const trace = initTrace("capnp:list:composite");
+const trace = initTrace("cap:list:composite");
 trace("load");
 
 export class Int64List extends List<bigint> {

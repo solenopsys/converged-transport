@@ -9,7 +9,7 @@ import { List } from "./list";
 import { Pointer, validate, getContent } from "./pointer";
 import { PointerType } from "./pointer-type";
 
-const trace = initTrace("capnp:data");
+const trace = initTrace("cap:data");
 trace("load");
 
 /**

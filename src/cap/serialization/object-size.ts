@@ -6,7 +6,7 @@ import initTrace from "debug";
 
 import * as _ from "../util";
 
-const trace = initTrace("capnp:object-size");
+const trace = initTrace("cap:object-size");
 trace("load");
 
 /**

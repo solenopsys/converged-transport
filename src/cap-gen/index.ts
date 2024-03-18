@@ -7,7 +7,7 @@ import { CodeGeneratorContext } from "./code-generator-context";
 import { loadRequest, writeTsFiles } from "./compiler";
 import * as E from "./errors";
 
-const trace = initTrace("capnpc");
+const trace = initTrace("cap-gen");
 trace("load");
 
 /**

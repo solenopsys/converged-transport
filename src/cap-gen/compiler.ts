@@ -17,7 +17,7 @@ import {
 	generateNestedImports,
 } from "./generators";
 
-const trace = initTrace("capnpc:compile");
+const trace = initTrace("cap-gen:compile");
 trace("load");
 
 export function compile(ctx: CodeGeneratorFileContext): string {

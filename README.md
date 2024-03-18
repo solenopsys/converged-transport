@@ -1,15 +1,5 @@
 # @solenopsys/converged-transport
 
-To install dependencies:
+Transport for the Converged Framework
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.31. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Cap - subset of Cap'tproto (https://github.com/capnproto/capnproto)

@@ -13,7 +13,7 @@ import * as E from "./errors";
 import { getDisplayNamePrefix, getFullClassName, getJsType } from "./file";
 import * as util from "./util";
 
-const trace = initTrace("capnpc:ast-creators");
+const trace = initTrace("cap-gen:ast-creators");
 
 export function createClassExtends(identifierText: string): ts.HeritageClause {
 	const types = [

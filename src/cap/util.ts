@@ -13,7 +13,7 @@ import {
 	RANGE_UINT32_OVERFLOW,
 } from "./errors";
 
-const trace = initTrace("capnp:util");
+const trace = initTrace("cap:util");
 trace("load");
 
 /**

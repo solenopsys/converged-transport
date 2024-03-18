@@ -4,7 +4,7 @@
 
 import initTrace from "debug";
 
-const trace = initTrace("capnp:serialization:arena:arena-allocation-result");
+const trace = initTrace("cap:serialization:arena:arena-allocation-result");
 trace("load");
 
 export class ArenaAllocationResult {

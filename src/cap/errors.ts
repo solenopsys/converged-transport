@@ -8,7 +8,7 @@ import initTrace from "debug";
 
 import { MAX_SEGMENT_LENGTH } from "./constants";
 
-const trace = initTrace("capnp:errors");
+const trace = initTrace("cap:errors");
 trace("load");
 
 // Invariant violations (sometimes known as "precondition failed").

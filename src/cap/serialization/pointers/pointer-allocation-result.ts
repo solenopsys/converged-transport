@@ -6,7 +6,7 @@ import initTrace from "debug";
 
 import { Pointer } from "./pointer";
 
-const trace = initTrace("capnp:pointer-allocation-result");
+const trace = initTrace("cap:pointer-allocation-result");
 trace("load");
 
 /**

@@ -17,6 +17,8 @@
     "typescript": "latest"
   },
   "scripts": {
-    "format": "bunx @biomejs/biome format src/**/*.ts --write"
+    "format": "bunx @biomejs/biome format src/**/*.ts --write",
+    "bundle-cap": "bun build  src/cap/index.ts --outfile=dist/cap.js",
+    "bundle-cap-gen": "bun build  src/cap-gen/index.ts --outfile=dist/cap-gen.js"
   }
 }

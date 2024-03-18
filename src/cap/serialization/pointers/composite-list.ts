@@ -9,7 +9,7 @@ import { _ListCtor, List, ListCtor } from "./list";
 import { Struct, StructCtor } from "./struct";
 import { copyFrom } from "./pointer";
 
-const trace = initTrace("capnp:list:composite");
+const trace = initTrace("cap:list:composite");
 trace("load");
 
 export function CompositeList<T extends Struct>(

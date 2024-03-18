@@ -24,7 +24,7 @@ import { Segment } from "./segment";
 import { getTargetStructSize, validate } from "./pointers/pointer";
 import { resize, initStruct } from "./pointers/struct";
 
-const trace = initTrace("capnp:message");
+const trace = initTrace("cap:message");
 trace("load");
 
 export interface _Message {

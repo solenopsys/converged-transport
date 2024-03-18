@@ -47,7 +47,7 @@ import {
 } from "./file";
 import * as util from "./util";
 
-const trace = initTrace("capnpc:generators");
+const trace = initTrace("cap-gen:generators");
 trace("load");
 
 export function generateCapnpImport(ctx: CodeGeneratorFileContext): void {

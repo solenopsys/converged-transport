@@ -9,7 +9,7 @@ import { _ListCtor, List } from "./list";
 import { Text } from "./text";
 import { getContent } from "./pointer";
 
-const trace = initTrace("capnp:list:composite");
+const trace = initTrace("cap:list:composite");
 trace("load");
 
 export class TextList extends List<string> {

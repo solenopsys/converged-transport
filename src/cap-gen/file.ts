@@ -7,7 +7,7 @@ import { ConcreteListType } from "./constants";
 import * as E from "./errors";
 import * as util from "./util";
 
-const trace = initTrace("capnpc:file");
+const trace = initTrace("cap-gen:file");
 trace("load");
 
 export function compareCodeOrder(
